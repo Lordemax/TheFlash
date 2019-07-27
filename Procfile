@@ -1,1 +1,1 @@
-bot: python3 flash.py
+flash: python3 flash.py
