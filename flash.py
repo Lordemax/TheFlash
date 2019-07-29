@@ -4,10 +4,20 @@
 # It echoes any incoming text messages.
 
 import telebot
+import os
 
+
+ #the secret configuration specific things
+if bool(os.environ.get("WEBHOOK", False)):
+    from sample_config import Config
+else:
+    from config import Config
+    
+    
+    
 # API_TOKEN = '<api_token>'
 
-bot = telebot.TeleBot(API_TOKEN)
+bot =  os.environ('API_TOKEN')
 
 
 # Handle '/start' and '/help'
