@@ -1,1 +1,1 @@
-flash: python3 flash.py
+flash: python flash.py
