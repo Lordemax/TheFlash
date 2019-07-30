@@ -1,1 +1,1 @@
-flash: python flash.py
+python flash.py
