@@ -1,7 +1,10 @@
 import telebot
+from config import config
 
 
-#TOKEN = "8:ZhumHmxps"
+
+TOKEN = config.TOKEN
+
 
 
 bot = telebot.TeleBot('TOKEN')
