@@ -1,9 +1,9 @@
 import telebot
-#from config import config
+from config import config
 
 
 
-#TOKEN = config.BOT_TOKEN
+BOT_TOKEN = config.BOT_TOKEN
 
 
 
