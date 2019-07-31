@@ -3,7 +3,7 @@ from config import config
 
 
 
-TOKEN = config.TOKEN
+TOKEN = config.BOT_TOKEN
 
 
 
