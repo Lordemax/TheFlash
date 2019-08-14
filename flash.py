@@ -1,16 +1,20 @@
-import telebot
-
+# -*- coding: utf-8 -*-
 import os
+import telebot
+# import some_api_lib
 
-#from config import config
 
+# Example of your code beginning
+#           Config vars
+TG_BOT_TOKEN = os.environ['']
+some_api_token = os.environ['SOME_API_TOKEN']
 
 
 #BOT_TOKEN = config.BOT_TOKEN
 
 
 
-bot = telebot.TeleBot(config.TG_BOT_TOKEN)
+bot = telebot.TeleBot(TG_BOT_TOKEN)
 
 @bot.message_handler(commands=['start', 'help'])
 def send_welcome(message):
