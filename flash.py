@@ -7,7 +7,7 @@ import os
 # Example of your code beginning
 #           Config vars
 TG_BOT_TOKEN = os.environ.get['TG_BOT_TOKEN']
-some_api_token = os.environ.get["'SOME_API_TOKEN']
+some_api_token = os.environ.get['SOME_API_TOKEN']
 
 
 #BOT_TOKEN = config.BOT_TOKEN
