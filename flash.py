@@ -1,5 +1,7 @@
 import telebot
 
+import os
+
 #from config import config
 
 
@@ -8,7 +10,7 @@ import telebot
 
 
 
-bot = telebot.TeleBot(BOT_TOKEN)
+bot = telebot.TeleBot(config.TG_BOT_TOKEN)
 
 @bot.message_handler(commands=['start', 'help'])
 def send_welcome(message):
