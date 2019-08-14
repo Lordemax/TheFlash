@@ -1,16 +1,16 @@
 # -*- coding: utf-8 -*-
 
 import telebot
-# import some_api_lib
+
 import os
 
 # Example of your code beginning
 #           Config vars
-TG_BOT_TOKEN = os.environ['TG_BOT_TOKEN']
-#some_api_token = os.environ['SOME_API_TOKEN']
+TG_BOT_TOKEN = os.environ["TG_BOT_TOKEN"] # working perfectly with this my BOT tken On heruko config vars
 
 
-#BOT_TOKEN = config.BOT_TOKEN
+
+
 
 
 
